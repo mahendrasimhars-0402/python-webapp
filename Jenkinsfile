@@ -11,7 +11,7 @@ pipeline {
         stage('Checkout Code') {
             steps {
                 git branch: 'master',
-                    url: 'git@github.com:mahendrasimhars-0402/my-webapp.git'
+                    url: 'git@github.com:mahendrasimhars-0402/python-webapp.git'
             }
         }
 
